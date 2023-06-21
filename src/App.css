@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
   --Light-Cream: #FFF7F0;
   --Black: #030303;
@@ -8,7 +10,7 @@
   --Light-Red: #EB7565;
   --Cyan: #61C4B7;
   --Dark-Purple: #552049;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 body{
   margin: 0 auto;
@@ -46,7 +48,7 @@ body{
 }
 .hero{
   text-align: center;
-  margin: 30px 0px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,7 +146,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 10px;
 }
 .amy-ttl{
   margin: 0;
@@ -153,7 +155,7 @@ body{
 }
 .amy-descp{
   color: var(--Medium-Brown);
-  margin: 0;
+  margin: 20px 0;
 }
 .red-btn{
   border: none;
@@ -379,9 +381,10 @@ footer{
 @media screen and (min-width: 1281px){
   .App-header{
     margin: 30px 21%;
+    margin-bottom: 0;
   }
   .main-container{
-    margin: 0 20%;
+    margin: 0 15%;
   }
   .hero h1{
     font-size: 56px;

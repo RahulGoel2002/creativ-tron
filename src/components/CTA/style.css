@@ -1,0 +1,49 @@
+
+.cta-img-div {
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 25px;
+}
+
+.cta-form-element {
+    margin: 20px 0px;
+}
+
+.cta-img {
+    width: 90%;
+}
+
+.cta-input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.cta-form-label {
+    margin-left: 10px;
+}
+
+.round-border {
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+.round-border-25 {
+    border-radius: 20px;
+}
+
+.cta-floating-label {
+    border-radius: 20px;
+    color: gray;
+}
+
+.cta-label {
+    background-color: white;
+    border-right: 0;
+}
+
+.cta-submit {
+    min-width: 100%;
+    border-radius: 25px;
+}
